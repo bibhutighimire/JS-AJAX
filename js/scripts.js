@@ -1,3 +1,4 @@
+const section = document.querySelector("section")
 document.getElementById("displayTypeAndText").addEventListener("click", function () {
   /**
  * Axios AJAX Library Example
@@ -16,7 +17,7 @@ document.getElementById("displayTypeAndText").addEventListener("click", function
 
         for (const details of allDetails) {
 
-          const section = document.querySelector("section")
+          
           const dl = document.createElement("dl");
 
           const dtname = document.createElement("dt");
@@ -53,7 +54,7 @@ document.getElementById("displayTypeAndText").addEventListener("click", function
 });
 
 document.getElementById("closeTypeAndText").addEventListener("click", function () {
-  const ul = document.querySelector("ul");
-  ul.style.display = "none";
+  
+  section.style.display = "none";
 })
 

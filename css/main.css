@@ -22,8 +22,10 @@ h1 {
     border-bottom: 2px dotted black;
     list-style: none;
 }
-#container ul {
+#container dl {
     padding: 0px;
+    border-bottom:2px dotted black;
+    padding-bottom: 20px;
 }
 
 #displayTypeAndText {
@@ -38,3 +40,8 @@ h1 {
     color: white;
     padding: 20px;
 }
+
+dt {
+font-weight: bold;
+}
+
