@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(225, 237, 247);
+    
+    
+}
+.container {
+    width: 1100px;
+    
+    
+}
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(225, 237, 247);
+    border: 2px solid rgb(157, 207, 240);
+    border-radius: 20px;
+    padding: 30px;
+}
+header img {
+height: 100px;
+width: 100px;
+}
+header h1 {
+    
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(157, 207, 240);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+section input {
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 65px;
+    width: 100%;
+    padding:10px;
+    margin-bottom: 15px;
+    
+}
+p {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    margin-bottom: 15px;
+
+}
+section h1 {
+    background-color: rgb(190, 238, 190);
+    text-decoration:none ;
+    height: 65px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(157, 207, 240);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+aside h1 {
+    background-color: rgb(190, 238, 190);
+    text-decoration:none ;
+    height: 65px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(147, 205, 243);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+a {
+    background-color: rgb(190, 238, 190);
+    text-decoration:none ;
+    height: 65px;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid rgb(157, 207, 240);
+    width: 150px;
+    text-align: center;
+    
+}
+ul {
+    width: 100%;
+}
+
+
+li {
+    margin:10px 0px;
+    padding:10px 0;
+    border-bottom: 1px dotted black;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: space-between;
+}
+    
+
+header div {
+    display: flex;
+    align-items: center;;
+    
+}
+
+/* Main Styles */
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid rgb(157, 207, 240);
+    margin-top: 15px;
+    border-radius: 20px;
+    padding: 0px 30px 30px 30px;
+    
+}
+footer p {
+    font-size: 20px;
+    text-align: center;
+    border-top:2px solid rgb(157, 207, 240) ;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.close {
+    
+    background-color: rgb(190, 238, 190);
+    text-decoration:none ;
+    height: 65px;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid rgb(157, 207, 240);
+    width: 150px;
+    text-align: center;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  .complete {
+    
+    background-color: rgb(190, 238, 190);
+    text-decoration:none ;
+    height: 65px;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid rgb(157, 207, 240);
+    width: 150px;
+    text-align: center;
+  }
+  
+  .complete:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  #error-output {
+      color: red;
+      font-weight: bolder;
+  }
+  .date {
+      font-size: larger;
+      color: saddlebrown;
+  }
+
+  .edit {
+    
+    background-color: rgb(190, 238, 190);
+    text-decoration:none ;
+    height: 65px;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid rgb(157, 207, 240);
+    width: 150px;
+    text-align: center;
+  }
+  
+  .edit:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  .back {
+    
+    background-color: rgb(190, 238, 190);
+    text-decoration:none ;
+    height: 65px;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid rgb(157, 207, 240);
+    width: 150px;
+    text-align: center;
+  }
+  
+  .back:hover {
+    background-color: #f44336;
+    color: white;
+  }
